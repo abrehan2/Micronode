@@ -46,7 +46,6 @@ app.get("/users", async (_, res) => {
 
 app.post("/users", async (req, res) => {
   try {
-    console.log(req.body);
     const { name, email } = req.body;
     const user = new User({ name, email });
     await user.save();
