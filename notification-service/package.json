@@ -1,5 +1,5 @@
 {
-  "name": "task-service",
+  "name": "notification-service",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "A task service for managing user tasks.",
+  "description": "A notification service for managing notifications.",
   "dependencies": {
     "amqplib": "^0.10.9",
     "body-parser": "^2.2.0",
